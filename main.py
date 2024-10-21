@@ -7,10 +7,10 @@ import pandas as pd
 n = 0.3
 
 #Number of neurons
-neurons = 4
+neurons = 3
 
 #Number of epoch
-epoch = 100000
+epoch = 6000
 
 #Random weights (0,1) -.5 / 5 = (-0.1,0.1)
 W1 = (np.random.rand(3, neurons) - 0.5) * .2
